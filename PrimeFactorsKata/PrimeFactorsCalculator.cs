@@ -21,6 +21,11 @@ namespace PrimeFactorsKata
                     numberToFactor /= 2;
                     factors.Add(2);
                 }
+                else if (numberToFactor % 3 == 0)
+                {
+                    numberToFactor /= 3;
+                    factors.Add(3);
+                }
                 else
                 {
                     factors.Add(numberToFactor);
