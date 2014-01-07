@@ -25,5 +25,13 @@ namespace PrimeFactorsKata.Tests
 
             Assert.That(actual, Is.EqualTo(new List<Int32>()));
         }
+
+        [Test]
+        public void OneShouldReturnAnEmptyList()
+        {
+            var actual = generator.GeneratePrimes();
+
+            Assert.That(actual, Is.EqualTo(new List<Int32>()));
+        }
     }
 }
