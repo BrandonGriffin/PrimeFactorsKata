@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PrimeFactorsKata
 {
-    public class Class1
+    public class PrimeFactorsCalculator
     {
+        public object GeneratePrimes()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

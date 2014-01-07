@@ -1,0 +1,9 @@
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\PrimeFactorsKata.Tests.dll
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\PrimeFactorsKata.Tests.pdb
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\nunit.framework.dll
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\nunit.framework.xml
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\obj\Debug\PrimeFactorsKata.Tests.csprojResolveAssemblyReference.cache
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\obj\Debug\PrimeFactorsKata.Tests.dll
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\obj\Debug\PrimeFactorsKata.Tests.pdb
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\PrimeFactorsKata.dll
+D:\Development\primefactorskata\PrimeFactorsKata.Tests\bin\Debug\PrimeFactorsKata.pdb
