@@ -8,9 +8,9 @@ namespace PrimeFactorsKata
 {
     public class PrimeFactorsCalculator
     {
-        public object GeneratePrimes()
+        public List<Int32> GeneratePrimes()
         {
-            throw new NotImplementedException();
+            return new List<Int32>();
         }
     }
 }
