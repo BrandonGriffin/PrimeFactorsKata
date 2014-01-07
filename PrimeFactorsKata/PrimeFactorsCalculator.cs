@@ -25,12 +25,6 @@ namespace PrimeFactorsKata
                 }
             }
 
-            if (numberToFactor > 1)
-            {
-                factors.Add(numberToFactor);
-                numberToFactor /= numberToFactor;
-            }
-
             return factors;
         }
     }
