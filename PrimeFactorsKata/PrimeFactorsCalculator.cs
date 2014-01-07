@@ -8,9 +8,12 @@ namespace PrimeFactorsKata
 {
     public class PrimeFactorsCalculator
     {
-        public List<Int32> GeneratePrimes()
+        public List<Int32> GeneratePrimes(Int32 numberToFactor)
         {
-            return new List<Int32>();
+            if(numberToFactor == 1)
+                return new List<Int32>();
+
+            return new List<Int32>{ numberToFactor };
         }
     }
 }

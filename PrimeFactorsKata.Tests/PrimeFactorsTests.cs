@@ -19,19 +19,19 @@ namespace PrimeFactorsKata.Tests
         }
 
         [Test]
-        public void GeneratePrimesShouldReturnAList()
+        public void OneShouldReturnAnEmptyList()
         {
-            var actual = generator.GeneratePrimes();
+            var actual = generator.GeneratePrimes(1);
 
             Assert.That(actual, Is.EqualTo(new List<Int32>()));
         }
 
         [Test]
-        public void OneShouldReturnAnEmptyList()
+        public void TwoShouldReturnTwo()
         {
-            var actual = generator.GeneratePrimes();
+            var actual = generator.GeneratePrimes(2);
 
-            Assert.That(actual, Is.EqualTo(new List<Int32>()));
+            Assert.That(actual, Is.EqualTo(new List<Int32>{ 2 }));
         }
     }
 }
