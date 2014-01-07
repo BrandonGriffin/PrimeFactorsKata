@@ -13,7 +13,7 @@ namespace PrimeFactorsKata
         {
             factors = new List<Int32>();
 
-            if (numberToFactor > 1)
+            while (numberToFactor > 1)
             {
 
                 if (numberToFactor % 2 == 0)
@@ -21,10 +21,13 @@ namespace PrimeFactorsKata
                     numberToFactor /= 2;
                     factors.Add(2);
                 }
-                if(numberToFactor > 1)
+                else
+                {
                     factors.Add(numberToFactor);
+                    numberToFactor /= numberToFactor;
+                }
             }
-            
+
             return factors;
         }
     }
