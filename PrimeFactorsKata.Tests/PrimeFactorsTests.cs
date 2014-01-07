@@ -33,5 +33,21 @@ namespace PrimeFactorsKata.Tests
 
             Assert.That(actual, Is.EqualTo(new List<Int32>{ 2 }));
         }
+
+        [Test]
+        public void ThreeShouldReturnThree()
+        {
+            var actual = generator.GeneratePrimes(3);
+
+            Assert.That(actual, Is.EqualTo(new List<Int32> { 3 }));
+        }
+
+        [Test]
+        public void FourShouldReturnTwoAndTwo()
+        {
+            var actual = generator.GeneratePrimes(4);
+
+            Assert.That(actual, Is.EqualTo(new List<Int32> { 2, 2 }));
+        }
     }
 }
