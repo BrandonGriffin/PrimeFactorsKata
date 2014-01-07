@@ -31,7 +31,7 @@ namespace PrimeFactorsKata.Tests
         {
             var actual = generator.GeneratePrimes(2);
 
-            Assert.That(actual, Is.EqualTo(new List<Int32>{ 2 }));
+            Assert.That(actual, Is.EqualTo(new List<Int32> { 2 }));
         }
 
         [Test]
@@ -48,6 +48,14 @@ namespace PrimeFactorsKata.Tests
             var actual = generator.GeneratePrimes(4);
 
             Assert.That(actual, Is.EqualTo(new List<Int32> { 2, 2 }));
+        }
+
+        [Test]
+        public void FiveShouldReturnFive()
+        {
+            var actual = generator.GeneratePrimes(5);
+
+            Assert.That(actual, Is.EqualTo(new List<Int32> { 5 }));
         }
     }
 }
