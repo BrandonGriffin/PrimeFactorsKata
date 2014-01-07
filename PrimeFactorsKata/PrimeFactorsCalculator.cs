@@ -9,28 +9,29 @@ namespace PrimeFactorsKata
     public class PrimeFactorsCalculator
     {
         private List<Int32> factors;
+
         public List<Int32> GeneratePrimes(Int32 numberToFactor)
         {
             factors = new List<Int32>();
+            var possibleFactor = 2;
 
             while (numberToFactor > 1)
             {
-
-                if (numberToFactor % 2 == 0)
+                if (numberToFactor % possibleFactor == 0)
                 {
-                    numberToFactor /= 2;
-                    factors.Add(2);
-                }
-                else if (numberToFactor % 3 == 0)
-                {
-                    numberToFactor /= 3;
-                    factors.Add(3);
+                    numberToFactor /= possibleFactor;
+                    factors.Add(possibleFactor);
                 }
                 else
                 {
-                    factors.Add(numberToFactor);
-                    numberToFactor /= numberToFactor;
+                    possibleFactor++;
                 }
+            }
+
+            if (numberToFactor > 1)
+            {
+                factors.Add(numberToFactor);
+                numberToFactor /= numberToFactor;
             }
 
             return factors;
