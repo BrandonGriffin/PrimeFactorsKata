@@ -12,8 +12,8 @@ namespace PrimeFactorsKata
         {
             if(numberToFactor == 1)
                 return new List<Int32>();
-
-            return new List<Int32>{ numberToFactor };
+            if(numberToFactor < 4)
+                return new List<Int32>{ numberToFactor };
         }
     }
 }

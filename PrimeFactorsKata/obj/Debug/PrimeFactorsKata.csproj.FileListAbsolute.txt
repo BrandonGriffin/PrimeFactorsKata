@@ -1,5 +1,0 @@
-D:\Development\primefactorskata\PrimeFactorsKata\bin\Debug\PrimeFactorsKata.dll
-D:\Development\primefactorskata\PrimeFactorsKata\bin\Debug\PrimeFactorsKata.pdb
-D:\Development\primefactorskata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.csprojResolveAssemblyReference.cache
-D:\Development\primefactorskata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.dll
-D:\Development\primefactorskata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.pdb
