@@ -7,7 +7,7 @@ namespace PrimeFactorsKata
     {
         private List<Int32> factors;
 
-        public List<Int32> GeneratePrimes(Int32 numberToFactor)
+        public IEnumerable<Int32> GeneratePrimes(Int32 numberToFactor)
         {
             factors = new List<Int32>();
             var possibleFactor = 2;
